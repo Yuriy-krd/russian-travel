@@ -1,0 +1,27 @@
+.cover {
+  margin: 92px auto;
+  padding: 0;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: calc(100% - 96px);
+	box-sizing: border-box;
+}
+
+@media all and (max-width: 1024px) {
+.cover {
+	max-width: 100%;
+	object-fit: cover;
+	margin-left: 0;
+	margin-right: 0;
+}
+}
+
+@media all and (max-width: 768px) {
+.cover {
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+}
