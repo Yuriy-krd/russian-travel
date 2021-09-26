@@ -2,33 +2,33 @@
   margin: 32px auto 245px;
   padding: 0;
   max-width: 360px;
-	display: flex;
-	font-family: 'Inter', 'Arial', sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 22px;
-	text-align: center;
-	color: #fff;
+  display: flex;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
 }
 
 @media all and (max-width: 1024px) {
 .cover__subtitle {
-	margin: 32px auto 195px;
+  margin: 32px auto 195px;
 }
 }
 
 @media all and (max-width: 768px) {
 .cover__subtitle {
-	margin: 32px auto 115px;
+  margin: 32px auto 115px;
 }
 }
 
 @media all and (max-width: 400px) {
 .cover__subtitle {
-	font-size: 14px;
-	line-height: 16px;
-	max-width: 100%;
-	margin: 16px auto 33px;
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 100%;
+  margin: 16px auto 33px;
 }
 }

@@ -4,32 +4,32 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 @media screen and (max-width: 1024px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
-  }
-  }
+.photo-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 14px;
+}
+}
 
-  @media all and (max-width: 768px) {
-  .photo-grid {
-    width: calc(100% - 48px);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
-    margin: 0 auto;
-  }
-  }
+@media all and (max-width: 768px) {
+.photo-grid {
+  width: calc(100% - 48px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 16px;
+  margin: 0 auto;
+}
+}
 
-  @media all and (max-width: 320px) {
-  .photo-grid {
-    width: calc(100% - 32px);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    gap: 12px;
-  }
-  }
+@media all and (max-width: 320px) {
+.photo-grid {
+  width: calc(100% - 32px);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 12px;
+}
+}
