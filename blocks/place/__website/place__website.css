@@ -18,7 +18,6 @@
 
 @media all and (max-width: 320px) {
 .place__website {
-  justify-content: space-between;
-  height: 46px;
+  justify-content: space-between;  
 }
 }
