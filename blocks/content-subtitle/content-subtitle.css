@@ -14,7 +14,7 @@
 @media all and (max-width: 768px) {
   .content-subtitle {
     font-size: 20px;
-    margin: 24px auto 0;
+    margin: 24px auto 18px;
   }
 }
 
