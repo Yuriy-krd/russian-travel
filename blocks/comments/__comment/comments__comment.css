@@ -10,12 +10,13 @@
   .comments__comment {
     padding-left: 15px;
     padding-right: 10px;
-    align-items: center;
   }
 }
 
 @media all and (max-width: 768px) {
   .comments__comment {
+    padding: 0;
+    align-items: center;
     margin-top: 48px;
   }
 }

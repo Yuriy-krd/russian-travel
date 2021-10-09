@@ -7,4 +7,13 @@
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
+  order: 2;
+}
+
+@media all and (max-width: 768px) {
+  .comments__quote {
+    text-align: center;
+    margin: 0 auto;
+    order: 3;
+  }
 }

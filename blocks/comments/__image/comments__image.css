@@ -5,4 +5,5 @@
   height: 97px;
   object-fit: contain;
   border-radius: 50%;
+  order: 1;
 }

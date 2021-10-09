@@ -7,4 +7,12 @@
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
+  order: 3;
+}
+
+@media all and (max-width: 768px) {
+  .comments__author {
+    margin: 10px auto 20px;
+    order: 2;
+  }
 }
