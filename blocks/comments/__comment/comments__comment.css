@@ -5,3 +5,16 @@
   flex-direction: column;
   max-width: 382px;
 }
+
+@media all and (max-width: 1250px) {
+  .comments__comment {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+}
+
+@media all and (max-width: 1250px) {
+  .comments__comment {
+    align-items: center;
+  }
+}
